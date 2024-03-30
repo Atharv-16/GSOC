@@ -2,7 +2,7 @@ The provided code demonstrates the implementation of two neural network models f
 
 ## Data Preparation:
 
-Satellite images are loaded and preprocessed using torchvision's ImageFolder dataset and transformations such as resizing, flipping, and normalization.
+Strong lensing images are loaded and preprocessed using torchvision's ImageFolder dataset and transformations such as resizing, flipping, and normalization.
 The dataset is split into training and testing sets.
 
 ## Model Training:
