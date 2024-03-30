@@ -1,3 +1,7 @@
+## Supervised Learning using ResNet
+<img src="/images/ROC_RESNET_AUG.png" alt="Example Image" width="600">/
+
+
 The provided code outlines a comprehensive approach to training a deep learning model for image classification using TensorFlow and Keras. Here's an overview of the strategy employed:
 
 - **Data Preprocessing:** Initially, the dataset, comprising images in NPZ format, is preprocessed by converting them to JPEG images. This step facilitates compatibility with TensorFlow's ImageDataGenerator, which is subsequently utilized to load and preprocess the data. Additionally, data augmentation techniques, such as rotation, are applied to augment the training dataset, enhancing the model's ability to generalize.
