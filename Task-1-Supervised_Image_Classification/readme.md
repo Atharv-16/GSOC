@@ -4,7 +4,7 @@
 
 The provided code outlines a comprehensive approach to training a deep learning model for image classification using TensorFlow and Keras. Here's an overview of the strategy employed:
 
-- **Data Preprocessing:** Initially, the dataset, comprising images in NPZ format, is preprocessed by converting them to JPEG images. This step facilitates compatibility with TensorFlow's ImageDataGenerator, which is subsequently utilized to load and preprocess the data. Additionally, data augmentation techniques, such as rotation, are applied to augment the training dataset, enhancing the model's ability to generalize.
+- **Data Preprocessing:** Initially, the dataset, comprising images in NPY format, is preprocessed by converting them to JPEG images. This step facilitates compatibility with TensorFlow's ImageDataGenerator, which is subsequently utilized to load and preprocess the data. Additionally, data augmentation techniques, such as rotation, are applied to augment the training dataset, enhancing the model's ability to generalize.
 
 - **Model Architecture:** The model architecture is built upon the ResNet50 convolutional neural network, pretrained on the ImageNet dataset. This choice harnesses the power of transfer learning, enabling the model to effectively capture high-level features from the images. To accommodate grayscale images, a custom input layer is introduced. Modifications to the fully connected layers tailor the architecture to the specific classification task. Dropout layers are incorporated to mitigate overfitting, enhancing the model's robustness.
 
