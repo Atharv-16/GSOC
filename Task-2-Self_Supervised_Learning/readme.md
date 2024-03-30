@@ -1,3 +1,7 @@
+## Self Supervised Learning using DINOv2
+<img src="/images/ROC_SSL.png" alt="Example Image" width="400">
+
+
 The provided code demonstrates the implementation of two neural network models for image classification tasks using PyTorch: a DINO (Transformers for Image) model and a ResNet-18 model.
 
 ## Data Preparation:
