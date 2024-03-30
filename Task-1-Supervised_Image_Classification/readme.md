@@ -1,5 +1,5 @@
 ## Supervised Learning using ResNet
-<img src="/images/ROC_RESNET_AUG.png" alt="Example Image" width="600">/
+<img src="/images/ROC_RESNET_AUG.png" alt="Example Image" width="400">/
 
 
 The provided code outlines a comprehensive approach to training a deep learning model for image classification using TensorFlow and Keras. Here's an overview of the strategy employed:
